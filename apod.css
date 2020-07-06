@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #bdbdbd;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: #151515;
+    display: flex;
+    
+    color: #dddddd;
+    align-items: center;
+    padding: 1% 10%;
+}
+h1 {
+    justify-content: space-around;
+    margin: 0 50% 0 0;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+}

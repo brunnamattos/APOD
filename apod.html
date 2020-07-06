@@ -5,24 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="apod.css">
+    
     <title>Astronomy Picture of the Day</title>
 </head>
-
 <body>
-    <header>
+    <header class="cabecalho">
         <h1>Astronomy Pic of the Day</h1>
-        <input type=date id="dataInput">
-        <button id="pesquisarBotao" onclick="pesquisarData()">Pesquisar</button>
+        <input type=date id="dataInput" class="formData">
+        <button id="pesquisarBotao" class="formData" onclick="pesquisarData()">Pesquisar</button>
     </header>
-    <main>
-        <h2 id="tituloFoto"></h2>
-        <p id="dataDia"></p>
-        <img id="foto">
-        <p id="descricao"></p>
+    <main class="container">
+        <h2 id="tituloFoto" class="tituloFoto"></h2>
+        <p id="dataDia" class="dataDia"></p>
+        <p id="descricao" class="descricao"></p>
+        <div id="midia">
+            <script type="text/javascript" src="midia.js"></script>
+            <!-- <img id="imagem">
+            <iframe id="video"></iframe> -->
+        </div>
     </main>
-    <footer>
-
-    </footer>
+    <footer class="rodape"></footer>
 </body>
 <script src="apod.js"></script>
 
