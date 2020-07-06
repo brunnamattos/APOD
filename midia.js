@@ -11,9 +11,7 @@ function getImagem (urlImagem) {
 }
 
 function getVideo(urlVideo) {
-  
-    
     tagVideo.src = urlVideo;
-    var imgScriptTag = document.getElementById('midia');
-    imgScriptTag.innerHTML = tagVideo.outerHTML;
+    var videoScriptTag = document.getElementById('midia');
+    videoScriptTag.innerHTML = tagVideo.outerHTML;
 }

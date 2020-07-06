@@ -8,23 +8,89 @@
 
 body {
     background-color: #bdbdbd;
+    color: #ffffff;
     font-family: 'Open Sans', sans-serif;
+    background-image: url('https://slm-assets.secondlife.com/assets/16809496/original/gif_Decent_Starry_Night_Sky_4x4.gif?1491222283');
+    background-size: cover;
+    width:100%;
+    height:100%;
+    text-align: center;
 }
 
 header {
+    position: fixed;
     background-color: #151515;
     display: flex;
-    
-    color: #dddddd;
+    position: relative;
+    color: #ffffff;
     align-items: center;
     padding: 1% 10%;
+    text-align: center;
 }
+
 h1 {
-    justify-content: space-around;
-    margin: 0 50% 0 0;
+    justify-content: space-between;
+    font-size: 30px;
+    padding: 0 30% 0 0;
+    margin: 0 2%;
 }
 
 .container {
-    justify-content: center;
+    display: inline-block;
     align-items: center;
+    height: 100%;
+    width: 60%;
+    background-color: #8b8b8b;
+}
+
+.botaoData {
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    text-decoration: none;
+    border:none !important;
+}
+
+h2 {
+    margin: 5% 5% 0;
+}
+
+p {
+    margin: 2% 10%;
+}
+
+img {
+    width: 70%;
+    height: 70%;
+    margin: 2% 5% 10% 5%;
+}
+
+iframe {
+    width: 640px;
+    height: 360px;
+    margin: 10% 5%;
+}
+
+footer {
+    background-color: #151515;
+    color: #dddddd;
+    font-size: 12px;
+    align-items: center;
+    padding: 2%;
+    text-align: center;
+}
+
+@media(max-width:600px){
+    img{
+        width: 60%;
+        height: 60%;
+    }
+
+    iframe {
+        width: 426px;
+        height: 240px;
+        margin: 10% 5%;
+    }
+
 }
